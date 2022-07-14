@@ -1,3 +1,5 @@
+//未判定
+
 #include <stdio.h>
 
 int main()
