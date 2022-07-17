@@ -37,8 +37,9 @@ int main()
             j++;
         }
     }
-    i=0;
-    while(i<n)
+
+    i = 0;
+    while(i < n)
     {
         printf("%d\n", a[i]);
         i++;
