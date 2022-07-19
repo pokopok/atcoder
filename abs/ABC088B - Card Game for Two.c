@@ -16,7 +16,7 @@ int main()
     }
 
     scanf("%d", &n);
-    for (i=0; i<n; i++)
+    for (i = 0; i < n; i++)
     {
         scanf("%d", &tmp);
         j = 0;
@@ -47,9 +47,11 @@ int main()
     i = 0;
     Alice = 0;
     Bob = 0;
-    while(i < n)
+    while (i < n)
     {
         Alice += a[i];
+
+        
         i++;
         if(i < n)
             Bob += a[i];
