@@ -50,8 +50,6 @@ int main()
     while (i < n)
     {
         Alice += a[i];
-
-        
         i++;
         if(i < n)
             Bob += a[i];
